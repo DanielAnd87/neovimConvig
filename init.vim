@@ -1,13 +1,9 @@
-" if !exists('g:vscode')
-	" Sätter ledare-symbolen till mellanslag.
 	let mapleader = "\<Space>"
 	
 	packadd! dracula_pro
 	syntax enable
 	let g:dracula_colorterm = 1
 	colorscheme dracula_pro_van_helsing
-	" let g:python3_host_prog = '/usr/bin/python'
-	" let g:python_host_prog  = '/path/to/python'
 
 	set clipboard=unnamedplus
 
@@ -65,4 +61,3 @@
 	    endwhile
 	    return 0
 	endfunction
-" endif
